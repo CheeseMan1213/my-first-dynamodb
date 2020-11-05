@@ -34,3 +34,7 @@ build/
 
 ### MacOS ###
 .DS_Store
+
+### Spring-boot ###
+application.properties
+
