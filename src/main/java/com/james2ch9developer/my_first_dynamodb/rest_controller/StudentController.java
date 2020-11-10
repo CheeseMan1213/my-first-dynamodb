@@ -21,7 +21,7 @@ public class StudentController {
 	private StudentRepository repository;
 
 	@CrossOrigin
-	@GetMapping(value = "getAllStudents", produces = "application/json")
+	@GetMapping(value = "/getAllStudents", produces = "application/json")
 	public Iterable<Student> getAllStudents() {
 		return this.repository.findAll();
 	}
